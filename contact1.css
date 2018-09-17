@@ -32,7 +32,7 @@
 	margin: 10px auto;
 	border-radius: 5px;
 	text-align: center;
-	/*border: 2px solid;*/
+	border: 2px solid;
 	color: black;
 	text-decoration: none;
 	background-color: #e5e5e5;
@@ -64,24 +64,24 @@
 	display: grid;
 	position: relative;
 	border: 2px solid black;
-	margin: 0px auto;
+	margin: 50px auto;
 	width: 500px;
 	height: 45%;
 	/*left: 25%;*/
 	grid-template-columns: 1fr;
-	padding: 2px;
+	/*padding: 40px;*/
 	grid-gap: 15px;
 }
 
 .bio {
 	grid-template-columns: 1fr;
 	font-family: 'Raleway', sans-serif;
-	grid-gap: 25px;
+	grid-gap: 5px;
 	border: 2px solid;
-	width: 98.8%;
+	width: 100%;
 	text-align: center;
 	display: block;
-	height: 100%;
+	height:99%;
 }
 
 #bio {
@@ -98,17 +98,16 @@
 	font-family: 'Raleway', sans-serif;
 	grid-gap: 5px;
 	border: 2px solid;
-	/*width: 500px;*/
-	/*text-align: center;*/
-	/*display: block;*/
-	/*height: 100%;*/
+	width: 500px;
+	text-align: center;
+	display: block;
+	height: 100%;
 }
 
 #socialgrid {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	/*border: 5px solid red;*/
+	grid-template-columns: 1fr 1fr; 
+	border: 5px solid red;
 	position: relative;
 	left: 50px;
 	grid-gap: 20px;
@@ -116,35 +115,43 @@
 
 }
 
-.fb {
-	/*border: 2px solid;*/
-	
-	/*height: 130px;*/
-
-	height: 100px;
-	/*width: 100px;*/
-}
-
-.twitter {
-	/*border: 2px solid;*/
-	/*height: 130px;*/
-	
-	/*height: 100px;*/
-	/*width: 100px;*/
-}
-
-.ig {
-	/*border: 2px solid;*/
+#fb {
+	border: 2px solid;
+	grid-column-start
 	height: 130px;
-	
+	background-image: url(images/facebook.ico);
+	background-repeat: no-repeat;
+	background-size: 100px;
+	height: 100px;
+	width: 100px;
+}
+
+#twitter {
+	border: 2px solid;
+	height: 130px;
+	background-image: url(images/twitter.png);
+	background-repeat: no-repeat;
+	background-size: 100px;
+	height: 100px;
+	width: 100px;
+}
+
+#ig {
+	border: 2px solid;
+	height: 130px;
+	background-image: url(images/instagram.png);
+	background-repeat: no-repeat;
+	background-size: 100px;
 	height: 100px;
 	width: 100px;
 }
 
 #link {
-	/*border: 2px solid;*/
+	border: 2px solid;
 	height:130px;
-
+	background-image: url(images/linkedin.jpg);
+	background-repeat: no-repeat;
+	background-size: 100px;
 	height: 100px;
 	width: 100px;
 }
@@ -164,10 +171,10 @@
 }
 
 .interests {
-/*	grid-template-columns: 1fr;*/
+	grid-template-columns: 1fr;
 	font-family: 'Raleway', sans-serif;
 	grid-gap: 5px;
-	/*border: 2px solid;*/
+	border: 2px solid;
 	width:140px;
 	text-align: center;
 	height: 100%;
@@ -182,11 +189,11 @@
 }
 
 .education {
-	/*grid-template-columns: 1fr;*/
+	grid-template-columns: 1fr;
 	font-family: 'Raleway', sans-serif;
 	grid-gap: 5px;
 	border: 2px solid;
-	width: 98.8%;
+	width:100%;
 	text-align:center;
 	height: 100%;
 }
@@ -199,15 +206,5 @@
 	margin: 2px auto;
 }
 
-@media only screen and (max-width: 461px) {
-  div.categories {
-    width: 240px;
-  }
-}
 
-@media only screen and (max-width: 461px) {
-  div.fb img.twit img.linked img.insta {
-    width: 40px;
-  }
-}
 

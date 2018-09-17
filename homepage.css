@@ -5,33 +5,35 @@
 
 .background {
 	background-image: url("Images/gravel.png");
-	height: 800px;
+	height: 1000px;
+	
 }
 
 .header {
 	width: 100%;
 	margin: 5px auto;
-	border: 2px solid;
+	border-bottom: 4px solid;
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 5px;
 	background-color: #e5e5e5;
 	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
 	font-weight: lighter;
 }
 
-#headline {
+.headline {
 	font-family: 'Raleway', sans-serif;
-	font-size: 80px;
+	font-size: 60px;
+	color: black;
 }
 
 .navbar {
 	width: 100%;
 	height: 50px;
-	margin: 10px auto;
-	border-radius: 5px;
+	margin: 5px auto;
+	/*border-radius: 5px;*/
 	text-align: center;
-	border: 2px solid;
+	/*border: 2px solid;*/
 	color: black;
 	text-decoration: none;
 	background-color: #e5e5e5;
@@ -53,7 +55,7 @@
 	width: 95%;
 	height: 500px;
 	margin: 0 auto;
-	border: 2px solid;
+	/*border: 2px solid;*/
 	position: relative;
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
@@ -69,13 +71,16 @@
 .msg {
 	padding-top: 40px;
 	font-weight: lighter;
+	width: 75%;
+	position: relative;
+	margin: 0 auto;
 }
 
 .social {
 	display: flex-grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	border: 2px solid black;
-	position: relative;
+	/*border: 2px solid black;*/
+	position: absolute;
 	/*top: 200px;*/
 	left: 475px;
 	width: 500px;
@@ -85,26 +90,44 @@
 
 .facebook {
 	padding-top: 20px;
+	grid-template-columns: 1fr 1fr;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-gap: 5px;
+	border: 2px solid;
 }
 
 .twitter {
 	padding-top: 60px;
+	grid-template-columns: 1fr 1fr;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-gap: 5px;
+	border: 2px solid;
 }
 
 .instagram {
 	padding-top: 20px;
+	grid-template-columns: 1fr 1fr;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-gap: 5px;
+	border: 2px solid;
 }
 
 .github {
 	padding-top: 60px;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+	border: 2px solid;
 }
 
 #fb {
 	height: 50px;
 	width: 50px;
 	border: 1px solid;
-	position: absolute;
-	left: 70px;
+	/*position: absolute;
+	left: 70px;*/
 	background-image: url(images/facebook.ico);
 	background-repeat: no-repeat;
 	background-size: 50px 50px;
@@ -151,10 +174,30 @@
 
 .footer {
 	background-color: #e5e5e5;
+	border-top-style: solid;
+	border-top-color: black;
 	width: 100%;
-	height: 90px;
+	height: 50px;
 	text-align: center;
-	line-height: 100px;
+	line-height: 50px;
 	display: relative;
 	/*top: 1100px;*/
+}
+
+@media only screen and (max-width: 480px) {
+  div.background div.navbar id {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 461px) {
+  div.nav {
+    height: 140px;
+  }
+}
+
+@media only screen and (max-width: 461px) {
+  h1.headline {
+    font-size: 50px;
+  }
 }

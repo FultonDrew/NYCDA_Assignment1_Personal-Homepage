@@ -5,13 +5,13 @@
 
 .background {
 	background-image: url("Images/gravel.png");
-	height: 900px;
+	height: 1000px;
 }
 
 .header {
 	width: 100%;
 	margin: 5px auto;
-	border: 2px solid;
+	border-bottom: 3px solid;
 	text-align: center;
 	padding-top: 25px;
 	background-color: #e5e5e5;
@@ -32,7 +32,7 @@
 	margin: 10px auto;
 	border-radius: 5px;
 	text-align: center;
-	border: 2px solid;
+	/*border: 2px solid;*/
 	color: black;
 	text-decoration: none;
 	background-color: #e5e5e5;
@@ -51,7 +51,8 @@
 }
 
 .about {
-	padding-top: 100px;
+	padding: 40px;
+
 	font-size: 40px;
 	margin: 0 auto;
 	font-family: 'Raleway', sans-serif;
@@ -60,40 +61,87 @@
 
 .categories {
 	display: grid;
-	position: absolute;
-	border: 2px solid black;
+	position: relative;
+	/*border: 2px solid black;*/
 	margin: 0 auto;
-	width: 50%;
-	left: 25%;
+	width: 80%;
+	height: 50%;
+	/*left: 25%;*/
 	grid-template-columns: 1fr;
-	padding: 40px;
-	grid-gap: 5px;
+	/*padding: 40px;*/
+	grid-gap: 35px;
 }
 
 .bio {
 	grid-template-columns: 1fr;
+	font-family: 'Raleway', sans-serif;
 	grid-gap: 5px;
 	border: 2px solid;
+	width:95%;
+	text-align: center;
+}
+
+#bio {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	padding-bottom: 8px;
+	margin: 2px auto;
 }
 
 .work {
 	grid-template-columns: 1fr;
+	font-family: 'Raleway', sans-serif;
 	grid-gap: 5px;
 	border: 2px solid;
+	width:95%;
+	text-align: center;
+}
+
+#work {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	padding-bottom: 8px;
+	margin: 2px auto;
+}
+
+#bold {
+	font-weight: bold;
 }
 
 .interests {
 	grid-template-columns: 1fr;
+	font-family: 'Raleway', sans-serif;
 	grid-gap: 5px;
 	border: 2px solid;
+	width:95%;
+	text-align: center;
+}
+
+#interests {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	padding-bottom: 8px;
+	margin: 2px auto;
 }
 
 .education {
 	grid-template-columns: 1fr;
+	font-family: 'Raleway', sans-serif;
 	grid-gap: 5px;
 	border: 2px solid;
+	width:95%;
+	text-align:center;
+}
 
-
+#education {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	padding-bottom: 8px;
+	margin: 2px auto;
 }
 /*.msg {
 	padding-top: 40px;
@@ -101,3 +149,20 @@
 	font-family: 'Raleway', sans-serif;
 }*/
 
+.footer {
+	background-color: #e5e5e5;
+	border-top-style: solid;
+	border-top-color: black;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	display: relative;
+	/*top: 1100px;*/
+}
+
+@media only screen and (max-width: 500px) {
+  div.background {
+    height: 1500px;
+  }
+}
