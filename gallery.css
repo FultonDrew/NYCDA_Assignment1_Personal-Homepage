@@ -10,7 +10,7 @@
 
 .header {
 	width: 100%;
-	/*margin: 25px auto;*/
+	/*margin: 50px auto;*/
 	border-bottom: 3px solid;
 	text-align: center;
 	/*padding-top: 15px;*/
@@ -95,8 +95,9 @@
 	font-family: 'Raleway', sans-serif;
 	font-size: 40px;
 	height: 10px;
-	padding-bottom: 115px;
+	padding-bottom: 80px;
 	text-align: center;
+	margin: 20px auto;
 }
 
 div.gallery {
@@ -114,6 +115,7 @@ div.gallery {
 div.gallery img {
     width: 100%;
     height: auto;
+    grid-gap: 40px;
 }
 
 div.desc {
@@ -151,6 +153,13 @@ div.desc {
     content: "";
     display: table;
     clear: both;
+}
+
+.img {
+	/*border: 6px solid black;*/
+	border-style: ridge;
+	border-width: 6px;
+	border-color: #B7B7B7;
 }
 
 .footer {

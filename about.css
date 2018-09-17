@@ -77,8 +77,13 @@
 	font-family: 'Raleway', sans-serif;
 	grid-gap: 5px;
 	border: 2px solid;
-	width:95%;
+	width:75%;
+	margin: 0 auto;
 	text-align: center;
+	border: 2px solid;
+	background-color: #E6EDED;
+	border-radius: 5px;
+	padding: 15px;
 }
 
 #bio {
@@ -94,8 +99,13 @@
 	font-family: 'Raleway', sans-serif;
 	grid-gap: 5px;
 	border: 2px solid;
-	width:95%;
+	width:75%;
+	margin: 0 auto;
 	text-align: center;
+	border: 2px solid;
+	background-color: #E6EDED;
+	border-radius: 5px;
+	padding: 15px;
 }
 
 #work {
@@ -115,8 +125,13 @@
 	font-family: 'Raleway', sans-serif;
 	grid-gap: 5px;
 	border: 2px solid;
-	width:95%;
+	width:75%;
+	margin: 0 auto;
 	text-align: center;
+	border: 2px solid;
+	background-color: #E6EDED;
+	border-radius: 5px;
+	padding: 15px;
 }
 
 #interests {
@@ -132,8 +147,13 @@
 	font-family: 'Raleway', sans-serif;
 	grid-gap: 5px;
 	border: 2px solid;
-	width:95%;
+	width:75%;
+	margin: 0 auto;
 	text-align:center;
+	border: 2px solid;
+	background-color: #E6EDED;
+	border-radius: 5px;
+	padding: 15px;
 }
 
 #education {
@@ -142,6 +162,7 @@
 	font-size: 20px;
 	padding-bottom: 8px;
 	margin: 2px auto;
+
 }
 /*.msg {
 	padding-top: 40px;
