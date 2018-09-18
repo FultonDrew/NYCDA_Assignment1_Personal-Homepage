@@ -212,8 +212,19 @@
 }
 
 @media only screen and (max-width: 461px) {
-  div.fb img.twit img.linked img.insta {
-    width: 40px;
+  div.social  {
+    width: 240px;
   }
 }
 
+@media only screen and (max-width: 768px) {
+  div.categories {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 996px) {
+  div.categories {
+    width: 700px;
+  }
+}
