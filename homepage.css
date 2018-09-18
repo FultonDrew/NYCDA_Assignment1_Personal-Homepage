@@ -185,7 +185,6 @@
 	display: relative;
 	/*top: 1100px;*/
 }
-
 @media only screen and (max-width: 480px) {
   div.background div.navbar id {
     width: 100%;
