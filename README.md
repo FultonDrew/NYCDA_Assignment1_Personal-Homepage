@@ -8,3 +8,4 @@ Login: NoLoGiNnEed3d
 Password: *********
 
 These pages are built in HTML and styled with CSS. All of the pictures featured in these pages were taken by me on my Google Pixel 2.
+
